@@ -1,0 +1,20 @@
+Reference: air.air
+Grading: air_1.air_1
+======
+RESULT
+======
+
+tested: 
+{(('t', 0),): ('ANTARA PADAT-CAIR', 'ANTARA PADAT-CAIR'), (('t', -16),): ('PADAT', 'PADAT'), (('t', 2),): ('CAIR', 'CAIR'), (('t', 100),): ('ANTARA CAIR-GAS', 'CAIR'), (('t', 65),): ('CAIR', 'CAIR'), (('t', 102),): ('GAS', 'GAS')}
+
+tested from path dev or path eq: 
+{(('t', 65),): ('CAIR', 'CAIR')}
+
+wrong: 
+{(('t', 100),): ('ANTARA CAIR-GAS', 'CAIR')}
+
+wrong from path dev or path eq: 
+{}
+
+grade: 
+83.33333333333334%

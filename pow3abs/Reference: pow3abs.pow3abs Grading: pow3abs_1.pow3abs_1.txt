@@ -1,0 +1,20 @@
+Reference: pow3abs.pow3abs
+Grading: pow3abs_1.pow3abs_1
+======
+RESULT
+======
+
+tested: 
+{(('a', 0),): (0, 0), (('a', -6),): (216, -216), (('a', -2),): (8, -8), (('a', 2),): (8, 8)}
+
+tested from path dev or path eq: 
+{(('a', -6),): (216, -216), (('a', 2),): (8, 8)}
+
+wrong: 
+{(('a', -6),): (216, -216), (('a', -2),): (8, -8)}
+
+wrong from path dev or path eq: 
+{(('a', -6),): (216, -216)}
+
+grade: 
+50.0%

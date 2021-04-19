@@ -1,0 +1,20 @@
+Reference: segiempat.segiempat
+Grading: segiempat_1.segiempat_1
+======
+RESULT
+======
+
+tested: 
+{(('n', 0),): ('', ''), (('n', 2),): ('**\n**', ''), (('n', 1),): ('*', '*'), (('n', 4),): ('****\n*##*\n*##*\n****', '****\n*##*\n*##*\n****')}
+
+tested from path dev or path eq: 
+{}
+
+wrong: 
+{(('n', 2),): ('**\n**', '')}
+
+wrong from path dev or path eq: 
+{}
+
+grade: 
+75.0%
